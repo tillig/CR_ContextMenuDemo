@@ -1,0 +1,179 @@
+<VisualStudioProject>
+    <CSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{9D506332-4BCC-4CC9-A11F-EDB59C429F3A}"
+    >
+        <Build>
+            <Settings
+                ApplicationIcon = ""
+                AssemblyKeyContainerName = ""
+                AssemblyName = "CR_ContextMenuDemo"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                DelaySign = "false"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "CR_ContextMenuDemo"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "true"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "true"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "..\..\..\..\..\..\Program Files\Developer Express Inc\CodeRush for Visual Studio .NET\1.1\Bin\PlugIns\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+                <Config
+                    Name = "Release"
+                    AllowUnsafeBlocks = "false"
+                    BaseAddress = "285212672"
+                    CheckForOverflowUnderflow = "false"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DocumentationFile = ""
+                    DebugSymbols = "false"
+                    FileAlignment = "4096"
+                    IncrementalBuild = "false"
+                    NoStdLib = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "..\..\..\..\..\..\Program Files\Developer Express Inc\CodeRush for Visual Studio .NET\1.1\Bin\PlugIns\"
+                    RegisterForComInterop = "false"
+                    RemoveIntegerChecks = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "DevExpress.CodeRush.Common"
+                    AssemblyName = "DevExpress.CodeRush.Common"
+                    HintPath = "..\..\..\..\..\..\Program Files\Developer Express Inc\CodeRush for Visual Studio .NET\1.1\Bin\DevExpress.CodeRush.Common.dll"
+                    AssemblyFolderKey = "hklm\coderush"
+                />
+                <Reference
+                    Name = "DevExpress.CodeRush.Core"
+                    AssemblyName = "DevExpress.CodeRush.Core"
+                    HintPath = "..\..\..\..\..\..\Program Files\Developer Express Inc\CodeRush for Visual Studio .NET\1.1\Bin\DevExpress.CodeRush.Core.dll"
+                    AssemblyFolderKey = "hklm\coderush"
+                />
+                <Reference
+                    Name = "DevExpress.CodeRush.VSCore"
+                    AssemblyName = "DevExpress.CodeRush.VSCore"
+                    HintPath = "..\..\..\..\..\..\Program Files\Developer Express Inc\CodeRush for Visual Studio .NET\1.1\Bin\DevExpress.CodeRush.VSCore.dll"
+                    AssemblyFolderKey = "hklm\coderush"
+                />
+                <Reference
+                    Name = "DevExpress.CodeRush.PlugInCore"
+                    AssemblyName = "DevExpress.CodeRush.PlugInCore"
+                    HintPath = "..\..\..\..\..\..\Program Files\Developer Express Inc\CodeRush for Visual Studio .NET\1.1\Bin\DevExpress.CodeRush.PlugInCore.dll"
+                    AssemblyFolderKey = "hklm\coderush"
+                />
+                <Reference
+                    Name = "DevExpress.CodeRush.StructuralParser"
+                    AssemblyName = "DevExpress.CodeRush.StructuralParser"
+                    HintPath = "..\..\..\..\..\..\Program Files\Developer Express Inc\CodeRush for Visual Studio .NET\1.1\Bin\DevExpress.CodeRush.StructuralParser.dll"
+                    AssemblyFolderKey = "hklm\coderush"
+                />
+                <Reference
+                    Name = "EnvDTE"
+                    AssemblyName = "EnvDTE"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\EnvDTE.dll"
+                />
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "System.Drawing"
+                    AssemblyName = "System.Drawing"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Drawing.dll"
+                />
+                <Reference
+                    Name = "System.Windows.Forms"
+                    AssemblyName = "System.Windows.Forms"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Windows.Forms.dll"
+                />
+                <Reference
+                    Name = "devexpress.coderush.extensions"
+                    AssemblyName = "DevExpress.CodeRush.Extensions"
+                    HintPath = "..\..\..\..\..\..\program files\developer express inc\coderush for visual studio .net\1.1\bin\devexpress.coderush.extensions.dll"
+                    AssemblyFolderKey = "hklm\coderush"
+                />
+                <Reference
+                    Name = "System.Design"
+                    AssemblyName = "System.Design"
+                    HintPath = "..\..\..\..\..\..\WINDOWS\Microsoft.NET\Framework\v1.1.4322\System.Design.dll"
+                />
+                <Reference
+                    Name = "devexpress.coderush.usercontrols"
+                    AssemblyName = "DevExpress.CodeRush.UserControls"
+                    HintPath = "..\..\..\..\..\..\program files\developer express inc\coderush for visual studio .net\1.1\bin\devexpress.coderush.usercontrols.dll"
+                    AssemblyFolderKey = "hklm\coderush"
+                />
+                <Reference
+                    Name = "DevExpress.CodeRush.Controls"
+                    AssemblyName = "DevExpress.CodeRush.Controls"
+                    HintPath = "..\..\..\..\..\..\Program Files\Developer Express Inc\CodeRush for Visual Studio .NET\1.1\Bin\DevExpress.CodeRush.Controls.dll"
+                    AssemblyFolderKey = "hklm\coderush"
+                />
+                <Reference
+                    Name = "Microsoft.mshtml"
+                    AssemblyName = "Microsoft.mshtml"
+                    HintPath = "..\..\..\..\..\..\Program Files\Microsoft.NET\Primary Interop Assemblies\Microsoft.mshtml.dll"
+                    AssemblyFolderKey = "hklm\primary interop assemblies"
+                />
+                <Reference
+                    Name = "AxSHDocVw"
+                    AssemblyName = "AxSHDocVw"
+                    HintPath = "..\..\..\..\..\..\Program Files\Developer Express Inc\CodeRush for Visual Studio .NET\1.1\Bin\AxSHDocVw.dll"
+                    AssemblyFolderKey = "hklm\coderush"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "AssemblyInfo.cs"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ContextMenuDemoPlugIn.cs"
+                    SubType = "Component"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "ContextMenuDemoPlugIn.resx"
+                    DependentUpon = "ContextMenuDemoPlugIn.cs"
+                    BuildAction = "EmbeddedResource"
+                />
+                <File
+                    RelPath = "resources\DemoResources.resx"
+                    BuildAction = "EmbeddedResource"
+                />
+            </Include>
+        </Files>
+    </CSHARP>
+</VisualStudioProject>
+
